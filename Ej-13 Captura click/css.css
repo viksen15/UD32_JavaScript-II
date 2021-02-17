@@ -1,0 +1,16 @@
+#t1{
+    width: 400px;
+    border: rgb(63, 131, 108) 3px solid;
+    border-spacing: 0;
+}
+#t2{
+    border:steelblue 3px solid;
+    border-spacing: 0;
+}
+td{ 
+    border: springgreen 2px solid;
+    padding: 5px
+}
+.derecha{
+    text-align: right;
+}

@@ -1,0 +1,48 @@
+#miniaturas{
+    border: rgb(56, 121, 99) 5px solid;
+    border-style: outset;
+    width: 220px;
+    background-color: lightcyan;
+    float: left;
+}
+#maximizadas{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-style: inset;
+    max-width: 1050px;
+    margin-left: 450px;
+}
+#maximizadas img{
+    width: 100%;
+}
+#img1 img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+#img2 img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+#img3 img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+#img4 img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+#img5 img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+#img6 img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+#img7 img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+#img8 img{
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
+    <script src='codigo.js'></script>
+</head>
+<body>
+    <div id="todo">
+        <p id="texto">0</p>
+        
+        <input type="button" class="opc" value="Retr" onclick="Retr()" />
+        <input type="button" class="opc" value="CE" onclick="CE()" />
+        <input type="button" class="opc" value="C" onclick="C()" /><p>
+
+        <input type="button" class="num" value="7" onclick="ponNum('7')" />
+        <input type="button" class="num" value="8" onclick="ponNum('8')" />
+        <input type="button" class="num" value="9" onclick="ponNum('9')" />
+        <input type="button" class="num" value="/" onclick="operar('/')" />
+        <input type="button" class="num" value="Raiz" onclick="raiz()" /><p>
+        
+        <input type="button" class="num" value="4" onclick="ponNum('4')" />
+        <input type="button" class="num" value="5" onclick="ponNum('5')" />
+        <input type="button" class="num" value="6" onclick="ponNum('6')" />
+        <input type="button" class="num" value="*" onclick="operar('*')" />
+        <input type="button" class="num" value="%" onclick="porciento()" /><p>
+
+        <input type="button" class="num" value="1" onclick="ponNum('1')" />
+        <input type="button" class="num" value="2" onclick="ponNum('2')" />
+        <input type="button" class="num" value="3" onclick="ponNum('3')" />
+        <input type="button" class="num" value="-" onclick="operar('-')" />
+        <input type="button" class="num" value="1/x" onclick="inverso()" /><p>
+
+        <input type="button" class="num" value="0" onclick="ponNum('0')" />
+        <input type="button" class="num" value="+/-" onclick="posOneg()" />
+        <input type="button" class="num" value="." onclick="ponNum(',')" />
+        <input type="button" class="num" value="+" onclick="operar('+')" />
+        <input type="button" class="num" value="=" onclick="total()" />
+
+    </div>
+</body>
+</html>

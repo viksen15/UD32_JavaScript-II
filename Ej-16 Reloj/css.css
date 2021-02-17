@@ -1,0 +1,9 @@
+#reloj{
+    width: 150px;
+    height: 30px;
+    border-style: outset;
+    border-color: aquamarine;
+    background-color: rgb(213, 255, 241);
+    font-size: 30px;
+    font-weight: bold;
+}
